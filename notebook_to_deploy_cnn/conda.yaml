@@ -1,0 +1,12 @@
+name: myenv
+channels:
+  - defaults
+dependencies:
+  - python=3.10  # Specify Python version
+  - pip
+  - pip:
+    - numpy==1.26.3
+    - tensorflow==2.15.0.post1  # Use the specific TensorFlow version
+    - azure-ai-ml==1.12.1
+    - azureml-inference-server-http==1.0.0
+    - pillow==10.2.0
